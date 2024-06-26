@@ -10,9 +10,9 @@ turtle= turtle.Turtle()
 # Make your turtle's shape 'turtle', .shape('turtle')
 turtle.shape('turtle')
 # Set your turtle's speed using .speed(2)
-turtle.speed(2)
+turtle.speed()
 # Set your turtle's color using .color('green') and .pencolor('blue')
-turtle.color('green')
+turtle.color('pink')
 turtle.pencolor('blue')
 # Move your turtle forward using .forward(100)
 # TEST    Did your turtle move forward?
@@ -26,14 +26,14 @@ for i in range(4):
     turtle.left(90)
 # Move your turtle to a new place on the screen using .goto(x, y)
 # x=0 and y=0 is the center of the screen
-turtle.goto(0,0)
+turtle.goto(x.y)
 # Have your turtle draw a circle using .circle(radius, steps=30)
 # TEST    Did your turtle draw a circle?
 turtle.circle(1, steps=30)
 turtle.hideturtle()
 # Add color to your shape by adding .begin_fill() before drawing the circle
 # and .end_fill() below
-turtle.begin_fill()
+turtle.begin_fill("blue")
 # Draw 3 more shapes with different fill colors!
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
